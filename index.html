@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="wink_icon-icons.com_67813.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>JK!</title>
+  </head>
+  <body>
+    <div class="header">
+      <img class="title-image" src="giphy (2).gif" />
+    </div>
+
+    <div class="content">
+      <div class="filters">
+        <div class="checks">
+          <h2 class="filter-text">Filters</h2>
+          <hr />
+          <div class="search">
+            <form action="#">
+              <input type="text" placeholder=" Search.." name="search" />
+              <button>Submit</button>
+            </form>
+          </div class="checks">
+          <h3>Categories</h3>
+          <form>
+            <input type="radio" id="Any" class="btn-category" checked/>
+            <label for="Any">All</label><br />
+
+            <input type="checkbox" id="Programming" class="btn-category" />
+            <label for="Programming"> Programming</label><br />
+
+            <input type="checkbox" id="Dark" class="btn-category"/>
+            <label for="Dark"> Dark</label><br />
+
+            <input type="checkbox" id="Pun" class="btn-category"/>
+            <label for="Pun"> Pun</label><br />
+
+            <input type="checkbox" id="Miscellaneous" class="btn-category"/>
+            <label for="Miscellaneous"> Miscellaneous</label><br />
+          </form>
+          <hr />
+        </div>
+        <div class="red-flags">
+          <h3>Flags to Blacklist</h3>
+          <form>
+            <input type="checkbox" id="NSFW" class= "btn-red-flag"/>
+            <label for="NSFW"> NSFW</label><br />
+            <input type="checkbox" id="Religious" class= "btn-red-flag"/>
+            <label for="Religious"> Religious</label><br />
+            <input type="checkbox" id="Political" class= "btn-red-flag"/>
+            <label for="Political"> Political</label><br />
+            <input type="checkbox" id="Racist" class= "btn-red-flag" />
+            <label for="Racist"> Racist</label><br />
+            <input type="checkbox" id="Sexist" class= "btn-red-flag"/>
+            <label for="Sexist"> Sexist</label><br />
+          </form>
+        </div>
+        <button class="btn-clear-filter">Clear all filters</button>
+      </div>
+      <div class="jokes-body">
+        <!-- <div class="joke-container">
+          <h2 class="joke">What's the best thing about Switzerland?</h2>
+          <p class="added-text">I don't know, but the flag is a big plus.</p>
+          <br />
+          <hr />
+          <h4 class="Pun">Pun</h4>
+          <h4 class="flag">Religious</h4>
+        </div> -->
+        <!-- <div class="joke-container">
+          <h2 class="joke">What's the best thing about Switzerland?</h2>
+          <p class="added-text">I don't know, but the flag is a big plus.</p>
+          <br />
+          <hr />
+          <h4 class="pun" id="Joke-id-2">Pun</h4>
+        </div>
+        <div class="joke-container">
+          <h2 class="joke">What's the best thing about Switzerland?</h2>
+          <p class="added-text">I don't know, but the flag is a big plus.</p>
+          <br />
+          <hr />
+          <h4 class="dark" id="Joke-id-2">Dark</h4>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
